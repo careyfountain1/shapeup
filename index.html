@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidePiece">
+            <p id="shapeName">Shape Name:</p>
+            <p id="shapeWidth">Shape Width:</p>
+            <p id="shapeHeight">Shape Height:</p>
+            <p id="shapeRadius">Shape Radius:</p>
+            <p id="shapeArea">Shape Area:</p>
+            <p id="shapePerimeter">Shape Perimeter:</p>
+        </div>
+        <div class="canvas" id="canvas"></div>
+
+        <!-- Square -->
+        <input type="text" name="square" id="squareText" placeholder="pixels"></input>
+        <button onclick="makeSquare()" id="square">SQUARE</button>
+        <!-- Rectangle -->
+        <input type="text" name="rectangleWidth" id="rectangleWidthText" placeholder="Length"></input>
+        <input type="text" name="rectangleHeight" id="rectangleHeightText" placeholder="Height"></input>
+        <button onclick="makeRectangle()" type="submit" id="rectangle">RECTANGLE</button>
+        <!-- Circle -->
+        <input type="text" name="circle" id="circleText" placeholder="pixels"></input>
+        <button onclick="makeCircle()" type="submit" id="circle">CIRCLE</button>
+        <!-- Triangle -->
+        <input type="text" name="triangle" id="triangleText" placeholder="pixels"></input>
+        <button onclick="makeTriangle()" type="submit" id="triangle">TRIANGLE</button>
+    </div>
+
+    <script src='index.js'></script>
+</body>
+</html>

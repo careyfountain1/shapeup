@@ -1,0 +1,25 @@
+.canvas {
+  background-color: blue;
+  width: 600px;
+  height: 600px;
+  position: relative; }
+
+.square {
+  background-color: red;
+  position: absolute; }
+
+.rectangle {
+  background-color: green;
+  position: absolute; }
+
+.circle {
+  background-color: purple;
+  border-radius: 50%;
+  position: absolute; }
+
+.triangle {
+  position: absolute;
+  height: 0px;
+  width: 0px; }
+
+/*# sourceMappingURL=style.css.map */
